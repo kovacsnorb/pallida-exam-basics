@@ -9,8 +9,27 @@ namespace TakeMeToThe
     class Sweets
     {
         protected float price;
-        public int sugarNeededToMakeOne;
-        protected float raisePercentage;
-        public string typeOfSweet;
+        protected int sugarNeededToMakeOne;
+        protected string typeOfSweet;
+
+        public int GetSugarNeededToMakeOne()
+        {
+            return sugarNeededToMakeOne;
+        }
+
+        public string GetTypeOfSweet()
+        {
+            return typeOfSweet;
+        }
+
+        public float GetPrice()
+        {
+            return price;
+        }
+
+        public void SetPrice(float newPrice)
+        {
+            this.price = newPrice;
+        }
     }
 }

@@ -17,6 +17,9 @@ namespace TakeMeToThe
             candyShop.CreateLollipop();
             candyShop.CreateLollipop();
             candyShop.PrintInfo();
+            candyShop.SellCandy(2);
+            candyShop.SellLollipop(1);
+            candyShop.PrintInfo();
 
             Console.ReadLine();
         }

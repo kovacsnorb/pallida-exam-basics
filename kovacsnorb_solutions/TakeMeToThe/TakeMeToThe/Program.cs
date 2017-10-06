@@ -12,10 +12,12 @@ namespace TakeMeToThe
         {
             var candyShop = new CandyShop(300);
             candyShop.CreateCandy();
+            candyShop.CreateCandy();
+            candyShop.CreateCandy();
             candyShop.CreateLollipop();
+            candyShop.CreateLollipop();
+            candyShop.PrintInfo();
 
-
-            Console.WriteLine(candyShop.totalSugar);
             Console.ReadLine();
         }
     }

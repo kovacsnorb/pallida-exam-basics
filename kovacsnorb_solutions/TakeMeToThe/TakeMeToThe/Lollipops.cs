@@ -12,6 +12,7 @@ namespace TakeMeToThe
         {
             price = 10;
             sugarNeededToMakeOne = 5;
+            typeOfSweet = "lollipop";
         }
     }
 }

@@ -11,5 +11,6 @@ namespace TakeMeToThe
         protected float price;
         public int sugarNeededToMakeOne;
         protected float raisePercentage;
+        public string typeOfSweet;
     }
 }

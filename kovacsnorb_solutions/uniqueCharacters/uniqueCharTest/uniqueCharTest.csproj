@@ -50,9 +50,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\uniqueCharacters\uniqueCharacters.csproj">
+    <ProjectReference Include="..\uniqueCharacters\UniqueCharacters.csproj">
       <Project>{0795dec6-e542-43e2-8e12-98b35a94d08c}</Project>
-      <Name>uniqueCharacters</Name>
+      <Name>UniqueCharacters</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

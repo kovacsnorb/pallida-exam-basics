@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using uniqueCharacters;
+using UniqueCharacters;
 
-namespace uniqueCharTest
+namespace UniqueCharTest
 {
     [TestFixture]
     public class Tests
@@ -16,7 +16,7 @@ namespace uniqueCharTest
         {
             string input = "falunep";
             char[] output = { 'f', 'a', 'l', 'u', 'n', 'e', 'p' };
-            Assert.AreEqual(output, uniqueCharacters.Program.GetUniqueCharacters(input));
+            Assert.AreEqual(output, UniqueCharacters.Program.GetUniqueCharacters(input));
         }
 
         [Test]
@@ -24,7 +24,7 @@ namespace uniqueCharTest
         {
             string input = "rekettyes";
             char[] output = { 'r', 'k', 'y', 's' };
-            Assert.AreEqual(output, uniqueCharacters.Program.GetUniqueCharacters(input));
+            Assert.AreEqual(output, UniqueCharacters.Program.GetUniqueCharacters(input));
         }
 
         [Test]
@@ -32,7 +32,7 @@ namespace uniqueCharTest
         {
             string input = "ette";
             char[] output = { };
-            Assert.AreEqual(output, uniqueCharacters.Program.GetUniqueCharacters(input));
+            Assert.AreEqual(output, UniqueCharacters.Program.GetUniqueCharacters(input));
         }
     }
 }

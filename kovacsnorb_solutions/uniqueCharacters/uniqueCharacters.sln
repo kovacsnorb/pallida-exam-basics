@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uniqueCharacters", "uniqueCharacters\uniqueCharacters.csproj", "{0795DEC6-E542-43E2-8E12-98B35A94D08C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniqueCharacters", "uniqueCharacters\UniqueCharacters.csproj", "{0795DEC6-E542-43E2-8E12-98B35A94D08C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uniqueCharTest", "uniqueCharTest\uniqueCharTest.csproj", "{F08D1D09-E4A0-4573-9909-5DA27A2C9F6B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniqueCharTest", "uniqueCharTest\UniqueCharTest.csproj", "{F08D1D09-E4A0-4573-9909-5DA27A2C9F6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

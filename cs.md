@@ -32,8 +32,18 @@ The application is accepted if:
 
 ###  What is the difference between a function and a method? [2p]
 #### Your answer:
-[add your answer here]
+Functions have independent existence. They can be defined outside of a class.
+Functions are defined in structured languages.
+Functions are called independently.
+Functions are self describing unit of code.
+
+Methods do not have independent existence, they are always defined in a class.
+Methods are defined in object oriented languages like C#.
+Methods are called using instance or object.
+Methods are used to manipulate instance variable of a class.
+
+In C# there is no difference between a function and a method.
 
 ### What is the constructor? When it is used? [2p]
 #### Your answer:
-[add your answer here]
+Whenever a class or a struct is created, its constructor is called. A class or a struct may have multiple constructors that take different arguments. We can set default values with it, for example.
